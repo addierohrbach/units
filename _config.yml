@@ -1,0 +1,13 @@
+# Site settings
+name: Units
+title: Units
+description: This is my length units project.
+baseurl: "/units"
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+
+# Sass settings
+sass:
+  sass_dir: assets/stylesheets

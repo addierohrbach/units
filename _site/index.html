@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Units</title>
+  <meta name="description" content="This is my foundation">
+
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+
+  <link rel="stylesheet" href="/units/assets/stylesheets/main.css">
+</head>
+
+
+  <body>
+    
+
+
+    <header>
+  <h1 class="title">Length Units</h1>
+</header>
+
+<h2>Absolute length units:</h2>
+<p>These units are literal representations of the measurements in the
+  phsyical world. The catch is that they can differ on various screens.
+  They are good for printed documents; however, they are not good for
+  designing and developing websites.</p>
+<ul>
+  <li>cm = centimeters</li>
+  <li>mm = millimeters</li>
+  <li>in = inches</li>
+  <li>px = 1/96th of an inch *</li>
+  <li>pt = 1/72nd of an inch</li>
+  <li>pc = 12 pt or 1/6th of an inch</li>
+</ul>
+<p><em>* px is equal to one pixel on the screen and is the most useful as it is
+  relative to the viewing device</em></p>
+
+<h2>Relative length units</h2>
+<p>These are not fixed values; they are relative to another predefined
+  value</p>
+<ul>
+  <li>ex = the height of the lower-case 'x' of that font (1/2 of an em);
+    therefore, it changes with the font</li>
+  <li>ch = the width of the zero character of that font</li>
+  <li>em = the font size of the base or parent element</li>
+  <li>rem = always equal to the font size of the root element</li>
+</ul>
+<h3>Example:</h3>
+<div class="em-example">
+  The font size of this div element is 24px. </br>
+  <span>This span element, which is inside the div element, is set at 0.75em, which 
+  translates to 18px.</span>
+</div>
+
+<h2>Viewport-percentage lengths</h2>
+<p>Units based on the height and width of the viewport (screen)</p>
+<ul>
+  <li>vw = 1/100th of the viewport width (value remains consistent for all
+    elements)</li>
+  <li>vh = same as vw, but for height</li>
+  <li>vmin = value equals the smallest length (ex: if the dimensions are
+    1200x800, the value will be 8px)</li>
+  <li>vmax = same as vmin, but the largest length</li>
+  <li>percentages = based on the length of the same property of the parent
+    element</li>
+</ul>
+<h3>Examples:</h3>
+<div class="vw-vh">
+    <div class="vw-example">
+	  This element's font size is set at 2vw. If you resize the browser's width, you will see 
+	  the font size change.
+	</div>
+	<div class="vh-example">
+	  This element's font size is set at 2vh. If you resize the browser's height, you will see 
+	  the font size change.
+	</div>
+</div>
+<p><em>* Notice how 2vh and 2vw are only equal if the browser is set as a square.</em></p>
+<div class="vmin-vmax">
+	<div class="vmin-example">
+	  This element's font size is set at 2vmin. If you resize the browser's height and width, 
+	  you will see the font size change according to which dimension is smaller.
+	</div>
+	<div class="vmax-example">
+	  This element's font size is set at 2max. If you resize the browser's height and width, 
+	  you will see the font size change according to which dimension is larger.
+	</div>
+</div>
+<p><em>* Notice how 2vmin and 2vmax are only equal if the browser is set as a square.</em></p>
+
+<h4>By <a href="http://wwww.addierohrbach.github.io/">Addie Rohrbach</a></h4>
+
+  </body>
+
+</html>

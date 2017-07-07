@@ -1,0 +1,122 @@
+---
+---
+
+body {
+  margin: auto;
+  width: 800px;
+}
+
+p,
+li {
+  //font-family: 'Zilla Slab', serif;
+  letter-spacing: 1.15px;
+}
+
+h2,
+h4 {
+  //font-family: sans-serif;
+}
+
+// Header //
+
+header {
+  padding: 50px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// em example //
+
+.em-example {
+  background-color: #800000;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  opacity: 0.60;
+  padding: 20px;
+}
+
+span {
+  font-size: 0.75em;
+}
+
+h3 {
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: -4px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+// vw and vh examples //
+
+.vw-example {
+  color: white;
+  font-size: 2vw;
+  padding: 20px;
+}
+
+.vh-example {
+  color: white;
+  font-size: 2vh;
+  padding: 20px;
+}
+
+.vw-vh {
+  background-color: #800000;
+  opacity: 0.60;
+  border-radius: 5px;
+}
+
+// vmin and vmax examples //
+
+.vmin-example {
+  color: white;
+  font-size: 2vmin;
+  padding: 20px;
+}
+
+.vmax-example {
+  color: white;
+  font-size: 2vmax;
+  padding: 20px;
+}
+
+.vmin-vmax {
+  background-color: #800000;
+  opacity: 0.60;
+  border-radius: 5px;
+}
+
+// footer //
+
+h4 {
+  display: block;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+// lists //
+
+ul {
+  //list-style-type: circle;
+  background-color: #f1f1f1;
+  border-left: 5px solid gray;
+  font-size: 14px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 10px 15px;
+}
